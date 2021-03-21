@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+    <ImageView
+        android:id="@+id/imgLogo"
+        android:layout_width="235dp"
+        android:layout_height="230dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="40dp"
+        app:srcCompat="@drawable/logo" />
+
+    <EditText
+        android:id="@+id/inputId"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imgLogo"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="50dp"
+        android:hint="NURSE ID" />
+
+    <EditText
+        android:id="@+id/inputPassword"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/inputId"
+        android:inputType="textPassword"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:hint="PASSWORD" />
+
+    <Button
+        android:id="@+id/btnSignin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/inputPassword"
+        android:layout_marginLeft="155dp"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="@color/skyblue"
+        android:text="Sign in"
+        android:textColor="@color/black" />
+
+
+    <Button
+        android:id="@+id/btnRegisterPage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnSignin"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#fff"
+        android:onClick="onClickToRegisterPage"
+        android:text="Register"
+        android:textColor="@color/black" />
+
+</RelativeLayout>

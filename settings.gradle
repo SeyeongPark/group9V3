@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name = "AlbuferaSeyeongVolpeCOM304_Lab4_Ex1"

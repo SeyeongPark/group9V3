@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">AlbuferaSeyeongVolpeCOM304_Lab4_Ex1</string>
+
+    //Patient Activity Text Strings
+    <string name="patientId">Patient Id</string>
+    <string name="firstName">Patients first name</string>
+    <string name="lastName">Patients last name</string>
+    <string name="department">Department</string>
+    <string name="nurseId">Patients nurse Id</string>
+    <string name="roomID">Patients room number</string>
+
+    //Patient Activity Edit Text Strings
+    <string name="patientIdHint">10001</string>
+    <string name="firstNameHint">John</string>
+    <string name="lastNameHint">Doe</string>
+    <string name="departmentHint">Emergency</string>
+    <string name="nurseIdHint">943</string>
+    <string name="roomIDHint">D14</string>
+
+    //Button Strings
+    <string name="Add">Add Patient</string>
+    <string name="Show">Show Patient By ID</string>
+
+    //Test Strings
+    <string name="testId">Test Id</string>
+    <string name="bpl">BPL</string>
+    <string name="bph">BPH</string>
+    <string name="temperature">Temperature</string>
+    <string name="testIdHint"> 1940000</string>
+    <string name="bplHint"> 90.2</string>
+    <string name="bphHint"> 143.5</string>
+    <string name="temperatureHint"> 92 </string>
+    <string name="testAdd">Add Test Data</string>
+
+</resources>
